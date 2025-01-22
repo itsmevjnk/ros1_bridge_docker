@@ -15,5 +15,5 @@ else
 fi
 
 echo "Launching ROS1 bridge."
-docker run -it -e ROS_MASTER_URI -e RMW_IMPLEMENTATION $CYCLONEDDS_ARG --net=host $DOCKER_IMAGE
+docker run -e ROS_MASTER_URI -e RMW_IMPLEMENTATION $CYCLONEDDS_ARG --net=host $DOCKER_IMAGE
 
